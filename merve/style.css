@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+#userList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#userList li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff5c5c;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #ff3c3c;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #555;
+}
